@@ -5,15 +5,40 @@
 #include<iomanip>
   char op;
 using namespace std;
-void diff()
+
+void sum()
+   {
+
+    int sum = 0;
+    int n;
+    int numberitems;
+    cout << "Enter number of items: \n";
+    cin >> numberitems;
+
+    for(int i=0;i<numberitems;i++)
     {
-     int diff;
-     int n1,n2;
-     cout<<"enter two numbers to find their difference:\n\n";
-     cout<<"enter first number:";
-     cin>>n1;
-     cout<<"\nenter second number:";
-     cin>>n2;
-     diff=n1-n2;
-     cout<<"\ndifference is:"<<diff<<endl<<endl;
+        cout<< "Enter number "<<i<<":\n\n" ;
+        cin>>n;
+        sum+=n;
+    }
+    cout<<"sum is: "<< sum<<endl<<endl;
+
+    }
+    void pro()
+
+    {
+     int pro=1;
+     int n;
+     int numberitems;
+     cout<<"enter number of items:\n";
+     cin>>numberitems;
+     for(int i=0;i<=numberitems;i++)
+     {
+             cout<<"\nenter item "<<i<<":";
+             cin>>n;
+             pro*=n;
+     }
+
+     cout<<"product is:"<<pro<<endl<<endl;
+
      }
