@@ -54,6 +54,8 @@ void diff()
      cout<<"product is:"<<pro<<endl<<endl;
 
      }
+
+
       void div()
      {
       int div;
@@ -67,3 +69,4 @@ void diff()
       div=n1/n2;
       cout<<"\nquotient is:"<<div<<endl<<endl;
       }
+
