@@ -66,6 +66,6 @@ void power()
      {
       res=n*res;
      }
-      cout<<n<<"\n power "<<p<<" is :"<<res<<endl;
+      cout<<n<<"\n power of the number "<<p<<" is :"<<res<<endl;
      }
 
