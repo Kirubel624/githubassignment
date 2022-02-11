@@ -54,18 +54,20 @@ void diff()
      cout<<"product is:"<<pro<<endl<<endl;
 
      }
-void power()
+
+
+      void div()
      {
-     long int p;
-     int res=1,n;
-     cout<<"enter number:";
-     cin>>n;
-     cout<<"\nenter power:";
-     cin>>p;
-     for(int i=1;i<=p;i++)
-     {
-      res=n*res;
-     }
-      cout<<n<<"\n power of the number "<<p<<" is :"<<res<<endl;
-     }
+      int div;
+      int n1;
+      int n2;
+      cout<<"enter 2 numbers to find their quotient\n\n";
+      cout<<"enter numerator:";
+      cin>>n1;
+      cout<<"\nenter denominator:";
+      cin>>n2;
+      div=n1/n2;
+      cout<<"\nquotient is:"<<div<<endl<<endl;
+      }
+
 
