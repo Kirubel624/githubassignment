@@ -97,7 +97,21 @@ void fact()
       cout<<" e^ "<<p<<" is :"<<res<<endl;
 
            }
-           
+           void power()
+     {
+     long int p;
+     int res=1,n;
+     cout<<"enter number:";
+     cin>>n;
+     cout<<"\nenter power:";
+     cin>>p;
+     for(int i=1;i<=p;i++)
+     {
+      res=n*res;
+     }
+      cout<<n<<"\n power "<<p<<" is :"<<res<<endl;
+     }
+
       
 
 
