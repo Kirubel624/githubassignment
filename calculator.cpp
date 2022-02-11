@@ -111,7 +111,15 @@ void fact()
      }
       cout<<n<<"\n power "<<p<<" is :"<<res<<endl;
      }
-
+void sq()
+     {
+     float s;
+     int n;
+     cout<<"enter number to find its square root:";
+     cin>>n;
+     s=sqrt(n);
+     cout<<"\nsquare root of "<<n<<" is :"<<s<<endl;
+     }
       
 
 
