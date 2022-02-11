@@ -98,18 +98,6 @@ void fact()
 
            }
            
-           void expo()
-     {
-          long double res=1,p;
-     double e=2.718281828;
-     cout<<"enter power of exponential function:";
-     cin>>p;
-     for(int i=1;i<=p;i++)
-     {
-      res=e*res;
-     }
-      cout<<" e^ "<<p<<" is :"<<res<<endl;
-
-           }
+      
 
 
