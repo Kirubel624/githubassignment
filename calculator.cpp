@@ -23,3 +23,20 @@ void sum()
     cout<<"sum is: "<< sum<<endl<<endl;
 
     }
+    void pro()
+
+    {
+     int pro=1;
+     int n;
+     int numberitems;
+     cout<<"enter number of items:\n";
+     cin>>numberitems;
+     for(int i=0;i<=numberitems;i++)
+     {
+             cout<<"\nenter item "<<i<<":";
+             cin>>n;
+             pro*=n;
+     }
+
+     cout<<"product is:"<<pro<<endl<<endl;
+     }
