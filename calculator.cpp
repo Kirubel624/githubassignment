@@ -70,3 +70,4 @@ void diff()
       cout<<"\nquotient is:"<<div<<endl<<endl;
       }
 
+
