@@ -132,15 +132,15 @@ void sq()
     system("cls");
     cout<<"***which operation you want to perform***\n";
     cout<<"press 0 for exit\n";
-    cout<<"press 1 for addition \n";
-    cout<<"press 2 for subtraction\n";
-    cout<<"press 3 for multiplication\n";
-    cout<<"press 4 for division\n";
-    cout<<"press 5 for power calculation\n";
-    cout<<"press 6 for square root \n";
+    cout<<"press 1 for addition operation\n";
+    cout<<"press 2 for subtraction operation\n";
+    cout<<"press 3 for multiplication operation\n";
+    cout<<"press 4 for division operation\n";
+    cout<<"press 5 for power calculation \n";
+    cout<<"press 6 for square root calculation\n";
     cout<<"press 7 for factorial calculation\n";
     cout<<"press 8 for exponential calculation\n";
-    cout<<"press option:";
+    cout<<"Please select an option:";
     cin>>op;
     switch(op)
     {
