@@ -113,7 +113,7 @@ void sinf()
     {
      double sinf;
      double n1;
-     cout<<"enter number you want to find cosine of:\n\n";
+     cout<<"enter number you want to find sine of:\n\n";
      
      cin>>n1;
      sinf=sin(n1);
@@ -171,7 +171,6 @@ void sq()
     {
               case '1':
               sum();
-
               break;
               case '2':
               diff();
