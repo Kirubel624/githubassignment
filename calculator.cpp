@@ -163,6 +163,8 @@ void sq()
     cout<<"press 6 for square root calculation\n";
     cout<<"press 7 for factorial calculation\n";
     cout<<"press 8 for exponential calculation\n";
+    cout<<"press 9 for cosine calculation\n";
+    cout<<"press 10 for sine calculation\n";
     cout<<"Please select an option:";
     cin>>op;
     switch(op)
@@ -191,6 +193,12 @@ void sq()
               break;
               case '8':
               expo();
+              break;
+              case '9':
+              cosf();
+              break;
+              case '10':
+              sinf();
               break;
               case '0':
               exit(0);
