@@ -109,6 +109,16 @@ void fact()
      cosf=cos(n1);
      cout<<"\nCosine of number is:"<<cosf<<endl<<endl;
      }
+void sinf()
+    {
+     float sinf;
+     float n1;
+     cout<<"enter number you want to find cosine of:\n\n";
+     
+     cin>>n1;
+     sinf=sin(n1);
+     cout<<"\Sine of number is:"<<sinf<<endl<<endl;
+     }
 
            void power()
      {
