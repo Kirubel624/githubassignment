@@ -111,8 +111,8 @@ void fact()
      }
 void sinf()
     {
-     float sinf;
-     float n1;
+     double sinf;
+     double n1;
      cout<<"enter number you want to find cosine of:\n\n";
      
      cin>>n1;
