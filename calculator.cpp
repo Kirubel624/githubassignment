@@ -14,7 +14,7 @@ void sum()
     int sum = 0;
     int n;
     int numberitems;
-    cout << "Enter number of items: \n";
+    cout << "Enter the number of items: \n";
     cin >> numberitems;
 
     for(int i=0;i<numberitems;i++)
@@ -30,7 +30,7 @@ void diff()
     {
      int diff;
      int n1,n2;
-     cout<<"enter two numbers to find their difference:\n\n";
+     cout<<"enter the two numbers you want to find the difference of:\n\n";
      cout<<"enter first number:";
      cin>>n1;
      cout<<"\nenter second number:";
