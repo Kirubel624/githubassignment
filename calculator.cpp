@@ -154,52 +154,52 @@ void sq()
     system("pause");
     system("cls");
     cout<<"***which operation you want to perform***\n";
-    cout<<"press 0 for exit\n";
-    cout<<"press 1 for addition operation\n";
-    cout<<"press 2 for subtraction operation\n";
-    cout<<"press 3 for multiplication operation\n";
-    cout<<"press 4 for division operation\n";
-    cout<<"press 5 for power calculation \n";
-    cout<<"press 6 for square root calculation\n";
-    cout<<"press 7 for factorial calculation\n";
-    cout<<"press 8 for exponential calculation\n";
-    cout<<"press 9 for cosine calculation\n";
-    cout<<"press 10 for sine calculation\n";
+    cout<<"press a for exit\n";
+    cout<<"press b for addition operation\n";
+    cout<<"press c for subtraction operation\n";
+    cout<<"press d for multiplication operation\n";
+    cout<<"press e for division operation\n";
+    cout<<"press f for power calculation \n";
+    cout<<"press g for square root calculation\n";
+    cout<<"press h for factorial calculation\n";
+    cout<<"press i for exponential calculation\n";
+    cout<<"press j for cosine calculation\n";
+    cout<<"press k for sine calculation\n";
     cout<<"Please select an option:";
     cin>>op;
     switch(op)
     {
-              case '1':
+              case 'b':
               sum();
               break;
-              case '2':
+              case 'c':
               diff();
               break;
-              case '3':
+              case 'd':
               pro();
               break;
-              case '4':
+              case 'e':
               div();
               break;
-              case '5':
+              case 'f':
               power();
               break;
-              case '6':
+              case 'g':
               sq();
               break;
-              case '7':
+              case 'h':
               fact();
               break;
-              case '8':
+              case 'i':
               expo();
               break;
-              case '9':
+              case 'j':
               cosf();
               break;
-              case '10':
+              case 'k':
               sinf();
               break;
-              case '0':
+              case 'a':
               exit(0);
               default:
               cout<<"invalid input"  ;
