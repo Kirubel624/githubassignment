@@ -111,4 +111,90 @@ void fact()
      cout<<"\nCosine of number is:"<<diff<<endl<<endl;
      }
 
+           void power()
+     {
+     long int p;
+     int res=1,n;
+     cout<<"enter number:";
+     cin>>n;
+     cout<<"\nenter power:";
+     cin>>p;
+     for(int i=1;i<=p;i++)
+     {
+      res=n*res;
+     }
+      cout<<n<<"\n power "<<p<<" is :"<<res<<endl;
+     }
+void sq()
+     {
+     float s;
+     int n;
+     cout<<"enter number to find its square root:";
+     cin>>n;
+     s=sqrt(n);
+     cout<<"\nsquare root of "<<n<<" is :"<<s<<endl;
+     }
+      int main()
+{
+
+
+    system("cls");
+    do
+    {
+
+    system("pause");
+    system("cls");
+    cout<<"***which operation you want to perform***\n";
+    cout<<"press 0 for exit\n";
+    cout<<"press 1 for addition operation\n";
+    cout<<"press 2 for subtraction operation\n";
+    cout<<"press 3 for multiplication operation\n";
+    cout<<"press 4 for division operation\n";
+    cout<<"press 5 for power calculation \n";
+    cout<<"press 6 for square root calculation\n";
+    cout<<"press 7 for factorial calculation\n";
+    cout<<"press 8 for exponential calculation\n";
+    cout<<"Please select an option:";
+    cin>>op;
+    switch(op)
+    {
+              case '1':
+              sum();
+
+              break;
+              case '2':
+              diff();
+              break;
+              case '3':
+              pro();
+              break;
+              case '4':
+              div();
+              break;
+              case '5':
+              power();
+              break;
+              case '6':
+              sq();
+              break;
+              case '7':
+              fact();
+              break;
+              case '8':
+              expo();
+              break;
+              case '0':
+              exit(0);
+              default:
+              cout<<"invalid input"  ;
+              system("cls");
+    }
+    }
+
+    while(op!='0');
+
+                    getch();
+                    }
+
+
 
