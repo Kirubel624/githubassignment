@@ -3,6 +3,8 @@
 #include<math.h>
 #include<stdlib.h>
 #include<iomanip>
+#include <cmath>
+
   char op;
 using namespace std;
 
@@ -97,6 +99,18 @@ void fact()
       cout<<" e^ "<<p<<" is :"<<res<<endl;
 
            }
+           
+      void cosf()
+    {
+     int cosf;
+     int n1;
+     cout<<"enter number you want to find cosine of:\n\n";
+     cout<<"enter the number:";
+     cin>>n1;
+     cosf=cos(n1);
+     cout<<"\nCosine of number is:"<<diff<<endl<<endl;
+     }
+
            void power()
      {
      long int p;
@@ -181,5 +195,6 @@ void sq()
 
                     getch();
                     }
+
 
 
