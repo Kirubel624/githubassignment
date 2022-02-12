@@ -102,13 +102,12 @@ void fact()
            
       void cosf()
     {
-     int cosf;
-     int n1;
+     double cosf;
+     double n1;
      cout<<"enter number you want to find cosine of:\n\n";
-     cout<<"enter the number:";
      cin>>n1;
      cosf=cos(n1);
-     cout<<"\nCosine of number is:"<<diff<<endl<<endl;
+     cout<<"\nCosine of number is:"<<cosf<<endl<<endl;
      }
 
            void power()
